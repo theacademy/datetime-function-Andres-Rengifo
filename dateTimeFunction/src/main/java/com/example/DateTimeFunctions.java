@@ -64,7 +64,7 @@ public class DateTimeFunctions {
         int years = diff.getYears();
         int months = diff.getMonths();
         int days = diff.getDays();
-		return (years + " years " + months + " months " + days + " days ");
+		return ("Year-"+years+":Months-"+months+":Days-"+days);
 		//YOUR CODE ENDS HERE
 
 	}
